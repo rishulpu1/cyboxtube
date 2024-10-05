@@ -1,0 +1,32 @@
+{
+  "name": "cyboxtube",
+  "version": "1.0.0",
+  "description": "A project inspired by youtube",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [
+    "nodejs",
+    "react",
+    "js",
+    "mogodb",
+    "mongoose",
+    "express",
+    "backend"
+  ],
+  "author": "Rajneesh Kumar",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.7",
+    "prettier": "^3.3.3"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "mongoose": "^8.7.0"
+  }
+}
